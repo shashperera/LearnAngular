@@ -1,8 +1,6 @@
 .DS_STORE
 
 /dist/
-/bazel-out
-/integration/bazel/bazel-*
 *.log
 node_modules/
 modules/ssr-benchmarks/node_modules/
@@ -48,11 +46,6 @@ yarn-error.log
 .notes.md
 baseline.json
 
-# Ignore .history for the xyz.local-history VSCode extension
-.history
 
 # Husky
 .husky/_
-
-# Ignore cache created with the Angular CLI.
-.angular/
